@@ -11,10 +11,10 @@ class Alumno:
         else:
             print("El alumno {} ha aprobado".format(self.nombre))
  
- # Creacion de alumnos
+
 alumno1 = Alumno("Juan", 7)
 alumno2 = Alumno("Alfredo", 3)
  
-# Comprobamos
+
 alumno1.calificacion()
 alumno2.calificacion()
